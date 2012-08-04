@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            var toggle = function(anchor, selector) {
+                $(selector).toggle();
+
+                var label = $(selector).is(":visible") ? "show" : "hide";
+                $(anchor).text(label);
+            };
+        </script>
+    </head>
+    <body>
+        <h1>Bug 2</h1>
+
+        <a href="#" onclick="toggle(this, '#hello');">hide</a>
+
+        <div id="hello">Hello!</div>
+        
+    </body>
+</html>
