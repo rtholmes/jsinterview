@@ -4,7 +4,8 @@ bug1.html:
     - the word 'green' displays in green
     - the word 'red' displays in red
   Enhancement:
-    - Eliminate all Javascript and use CSS to style words (inlined <style> tag is fine)
+    - Eliminate all Javascript and use CSS to style words 
+      (inlined <style> tag is fine)
 
 bug2.html:
   Bug fixes:
@@ -20,13 +21,14 @@ bug2.html:
 todo:
   This is a copy of the Backbone.js TODO app from: https://github.com/addyosmani/todomvc
   Sadly, we broke some things.  Please fix:
-    - Enter key doesn't add a new item
-    - 'Completed' filter doesn't work. When an item is 'checked', it doesn't filter properly
-      in the completed and active views
+    - Enter key doesn't add a new item, but it should
+    - 'Completed' filter doesn't work. When an item is 'checked', it doesn't filter 
+      properly in the completed and active views
 
 moviekata:
   Adaptation of codingkata.org's Movie Ticket problem
-  See description: https://github.com/coopernurse/MovieTicketKata/blob/master/CodingKataMovieTickets.pdf
+  See description:
+    https://github.com/coopernurse/MovieTicketKata/blob/master/CodingKataMovieTickets.pdf?raw=true
   Steps:
     load in browser (runs qunit tests):  moviekata/index.html
     edit movie.js until tests pass, using pricing rules from above PDF
