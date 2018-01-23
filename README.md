@@ -27,6 +27,6 @@
 
 ### moviekata
   * Adaptation of codingkata.org's Movie Ticket problem
-  * See [description](moviekata/CodingKataMovieTickets.pdf) for full details.
+  * See [description](moviekata/instructions.md) for full details.
     * Load in browser (runs qunit tests): ```moviekata/index.html```
-    * Edit movie.js until tests pass, using pricing rules from above PDF
+    * Edit movie.js until tests pass, using pricing rules from above document
