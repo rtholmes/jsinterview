@@ -18,7 +18,7 @@ However, the following exceptions apply, per person:
 | Exception |  Price change |
 |--------------|-------------|
 | 3D movie | +$3.00 |
-| Over-length (more than 12 min.) | +$1.50 |
+| Over-length (more than 120 min.) | +$1.50 |
 | Movie Day (Thursday, except for groups!) | -$2.00 |
 | Weekends | +$1.50 |
 | Fancy "loge" seats | +$2.00 |
